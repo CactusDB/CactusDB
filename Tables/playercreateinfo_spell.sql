@@ -10,10 +10,11 @@ Target Server Type    : MYSQL
 Target Server Version : 50500
 File Encoding         : 65001
 
-Date: 2010-12-09 13:35:48
+Date: 2010-12-11 16:34:18
 */
 
 SET FOREIGN_KEY_CHECKS=0;
+
 -- ----------------------------
 -- Table structure for `playercreateinfo_spell`
 -- ----------------------------
