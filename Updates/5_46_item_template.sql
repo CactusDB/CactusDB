@@ -1,0 +1,1 @@
+update `item_template` set StatsCount=10;
