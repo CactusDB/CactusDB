@@ -10,10 +10,11 @@ Target Server Type    : MYSQL
 Target Server Version : 50500
 File Encoding         : 65001
 
-Date: 2010-12-09 11:30:04
+Date: 2010-12-18 21:21:13
 */
 
 SET FOREIGN_KEY_CHECKS=0;
+
 -- ----------------------------
 -- Table structure for `areatrigger_involvedrelation`
 -- ----------------------------
@@ -29,7 +30,6 @@ CREATE TABLE `areatrigger_involvedrelation` (
 -- ----------------------------
 INSERT INTO `areatrigger_involvedrelation` VALUES ('2946', '6421');
 INSERT INTO `areatrigger_involvedrelation` VALUES ('3367', '6025');
-INSERT INTO `areatrigger_involvedrelation` VALUES ('2327', '4842');
 INSERT INTO `areatrigger_involvedrelation` VALUES ('2486', '4811');
 INSERT INTO `areatrigger_involvedrelation` VALUES ('1205', '2989');
 INSERT INTO `areatrigger_involvedrelation` VALUES ('482', '1699');
@@ -41,7 +41,6 @@ INSERT INTO `areatrigger_involvedrelation` VALUES ('196', '578');
 INSERT INTO `areatrigger_involvedrelation` VALUES ('169', '287');
 INSERT INTO `areatrigger_involvedrelation` VALUES ('98', '201');
 INSERT INTO `areatrigger_involvedrelation` VALUES ('78', '155');
-INSERT INTO `areatrigger_involvedrelation` VALUES ('178', '503');
 INSERT INTO `areatrigger_involvedrelation` VALUES ('87', '76');
 INSERT INTO `areatrigger_involvedrelation` VALUES ('88', '62');
 INSERT INTO `areatrigger_involvedrelation` VALUES ('3986', '8286');
@@ -53,7 +52,6 @@ INSERT INTO `areatrigger_involvedrelation` VALUES ('4293', '9716');
 INSERT INTO `areatrigger_involvedrelation` VALUES ('4298', '9731');
 INSERT INTO `areatrigger_involvedrelation` VALUES ('4300', '9752');
 INSERT INTO `areatrigger_involvedrelation` VALUES ('4301', '9786');
-INSERT INTO `areatrigger_involvedrelation` VALUES ('1388', '3505');
 INSERT INTO `areatrigger_involvedrelation` VALUES ('175', '455');
 INSERT INTO `areatrigger_involvedrelation` VALUES ('246', '1149');
 INSERT INTO `areatrigger_involvedrelation` VALUES ('232', '984');
@@ -64,7 +62,6 @@ INSERT INTO `areatrigger_involvedrelation` VALUES ('2926', '25');
 INSERT INTO `areatrigger_involvedrelation` VALUES ('522', '1719');
 INSERT INTO `areatrigger_involvedrelation` VALUES ('171', '273');
 INSERT INTO `areatrigger_involvedrelation` VALUES ('173', '437');
-INSERT INTO `areatrigger_involvedrelation` VALUES ('2207', '5156');
 INSERT INTO `areatrigger_involvedrelation` VALUES ('4064', '9160');
 INSERT INTO `areatrigger_involvedrelation` VALUES ('4170', '9400');
 INSERT INTO `areatrigger_involvedrelation` VALUES ('4280', '9700');

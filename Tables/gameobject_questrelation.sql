@@ -10,10 +10,11 @@ Target Server Type    : MYSQL
 Target Server Version : 50500
 File Encoding         : 65001
 
-Date: 2010-12-09 11:36:15
+Date: 2010-12-18 21:21:39
 */
 
 SET FOREIGN_KEY_CHECKS=0;
+
 -- ----------------------------
 -- Table structure for `gameobject_questrelation`
 -- ----------------------------
@@ -56,11 +57,6 @@ INSERT INTO `gameobject_questrelation` VALUES ('1593', '439');
 INSERT INTO `gameobject_questrelation` VALUES ('1599', '461');
 INSERT INTO `gameobject_questrelation` VALUES ('1609', '474');
 INSERT INTO `gameobject_questrelation` VALUES ('1627', '478');
-INSERT INTO `gameobject_questrelation` VALUES ('1740', '510');
-INSERT INTO `gameobject_questrelation` VALUES ('1740', '511');
-INSERT INTO `gameobject_questrelation` VALUES ('1763', '549');
-INSERT INTO `gameobject_questrelation` VALUES ('1763', '566');
-INSERT INTO `gameobject_questrelation` VALUES ('2008', '567');
 INSERT INTO `gameobject_questrelation` VALUES ('2059', '417');
 INSERT INTO `gameobject_questrelation` VALUES ('2076', '585');
 INSERT INTO `gameobject_questrelation` VALUES ('2076', '586');
@@ -101,13 +97,8 @@ INSERT INTO `gameobject_questrelation` VALUES ('17183', '1002');
 INSERT INTO `gameobject_questrelation` VALUES ('17184', '1003');
 INSERT INTO `gameobject_questrelation` VALUES ('19024', '1055');
 INSERT INTO `gameobject_questrelation` VALUES ('20805', '1194');
-INSERT INTO `gameobject_questrelation` VALUES ('20985', '1219');
 INSERT INTO `gameobject_questrelation` VALUES ('20985', '1238');
 INSERT INTO `gameobject_questrelation` VALUES ('20985', '1239');
-INSERT INTO `gameobject_questrelation` VALUES ('20992', '1251');
-INSERT INTO `gameobject_questrelation` VALUES ('20992', '1253');
-INSERT INTO `gameobject_questrelation` VALUES ('21042', '1252');
-INSERT INTO `gameobject_questrelation` VALUES ('21042', '1269');
 INSERT INTO `gameobject_questrelation` VALUES ('35251', '1455');
 INSERT INTO `gameobject_questrelation` VALUES ('50961', '1465');
 INSERT INTO `gameobject_questrelation` VALUES ('51708', '254');
@@ -215,7 +206,6 @@ INSERT INTO `gameobject_questrelation` VALUES ('175927', '5063');
 INSERT INTO `gameobject_questrelation` VALUES ('175927', '5067');
 INSERT INTO `gameobject_questrelation` VALUES ('175927', '5068');
 INSERT INTO `gameobject_questrelation` VALUES ('176090', '5103');
-INSERT INTO `gameobject_questrelation` VALUES ('176091', '5085');
 INSERT INTO `gameobject_questrelation` VALUES ('176115', '5147');
 INSERT INTO `gameobject_questrelation` VALUES ('176190', '4722');
 INSERT INTO `gameobject_questrelation` VALUES ('176191', '4728');
@@ -300,15 +290,10 @@ INSERT INTO `gameobject_questrelation` VALUES ('185165', '10820');
 INSERT INTO `gameobject_questrelation` VALUES ('185165', '10821');
 INSERT INTO `gameobject_questrelation` VALUES ('185166', '10809');
 INSERT INTO `gameobject_questrelation` VALUES ('186267', '11405');
-INSERT INTO `gameobject_questrelation` VALUES ('186420', '510');
-INSERT INTO `gameobject_questrelation` VALUES ('186420', '511');
-INSERT INTO `gameobject_questrelation` VALUES ('186426', '11184');
 INSERT INTO `gameobject_questrelation` VALUES ('186585', '11254');
 INSERT INTO `gameobject_questrelation` VALUES ('186881', '11454');
 INSERT INTO `gameobject_questrelation` VALUES ('186887', '12133');
 INSERT INTO `gameobject_questrelation` VALUES ('186887', '12155');
-INSERT INTO `gameobject_questrelation` VALUES ('187273', '1268');
-INSERT INTO `gameobject_questrelation` VALUES ('187273', '1284');
 INSERT INTO `gameobject_questrelation` VALUES ('187565', '11605');
 INSERT INTO `gameobject_questrelation` VALUES ('187565', '11607');
 INSERT INTO `gameobject_questrelation` VALUES ('187565', '11609');

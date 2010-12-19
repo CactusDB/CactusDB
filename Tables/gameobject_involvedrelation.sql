@@ -10,10 +10,11 @@ Target Server Type    : MYSQL
 Target Server Version : 50500
 File Encoding         : 65001
 
-Date: 2010-12-09 11:36:03
+Date: 2010-12-18 21:21:30
 */
 
 SET FOREIGN_KEY_CHECKS=0;
+
 -- ----------------------------
 -- Table structure for `gameobject_involvedrelation`
 -- ----------------------------
@@ -52,8 +53,6 @@ INSERT INTO `gameobject_involvedrelation` VALUES ('1593', '438');
 INSERT INTO `gameobject_involvedrelation` VALUES ('1599', '460');
 INSERT INTO `gameobject_involvedrelation` VALUES ('1609', '465');
 INSERT INTO `gameobject_involvedrelation` VALUES ('1627', '477');
-INSERT INTO `gameobject_involvedrelation` VALUES ('1728', '524');
-INSERT INTO `gameobject_involvedrelation` VALUES ('1767', '553');
 INSERT INTO `gameobject_involvedrelation` VALUES ('2059', '419');
 INSERT INTO `gameobject_involvedrelation` VALUES ('2076', '584');
 INSERT INTO `gameobject_involvedrelation` VALUES ('2076', '585');
@@ -73,7 +72,6 @@ INSERT INTO `gameobject_involvedrelation` VALUES ('2875', '738');
 INSERT INTO `gameobject_involvedrelation` VALUES ('2908', '749');
 INSERT INTO `gameobject_involvedrelation` VALUES ('2933', '779');
 INSERT INTO `gameobject_involvedrelation` VALUES ('2933', '795');
-INSERT INTO `gameobject_involvedrelation` VALUES ('3643', '67');
 INSERT INTO `gameobject_involvedrelation` VALUES ('4141', '894');
 INSERT INTO `gameobject_involvedrelation` VALUES ('4141', '900');
 INSERT INTO `gameobject_involvedrelation` VALUES ('4141', '901');
@@ -125,7 +123,6 @@ INSERT INTO `gameobject_involvedrelation` VALUES ('148836', '3446');
 INSERT INTO `gameobject_involvedrelation` VALUES ('148838', '3447');
 INSERT INTO `gameobject_involvedrelation` VALUES ('149047', '3454');
 INSERT INTO `gameobject_involvedrelation` VALUES ('149502', '3481');
-INSERT INTO `gameobject_involvedrelation` VALUES ('151286', '3505');
 INSERT INTO `gameobject_involvedrelation` VALUES ('161504', '3844');
 INSERT INTO `gameobject_involvedrelation` VALUES ('164689', '3802');
 INSERT INTO `gameobject_involvedrelation` VALUES ('164869', '4083');
@@ -186,7 +183,6 @@ INSERT INTO `gameobject_involvedrelation` VALUES ('175894', '5021');
 INSERT INTO `gameobject_involvedrelation` VALUES ('175924', '5060');
 INSERT INTO `gameobject_involvedrelation` VALUES ('175925', '5059');
 INSERT INTO `gameobject_involvedrelation` VALUES ('175926', '5058');
-INSERT INTO `gameobject_involvedrelation` VALUES ('176091', '5084');
 INSERT INTO `gameobject_involvedrelation` VALUES ('176192', '5164');
 INSERT INTO `gameobject_involvedrelation` VALUES ('176317', '5265');
 INSERT INTO `gameobject_involvedrelation` VALUES ('176361', '5216');
