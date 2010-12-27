@@ -1,0 +1,12 @@
+INSERT IGNORE INTO `spelldifficulty_dbc` (`id`, `spellid0`, `spellid1`) VALUES ('2108', '71356', '71803');
+INSERT IGNORE INTO `spelldifficulty_dbc` (`id`, `spellid0`, `spellid1`) VALUES ('2136', '72111', '72125');
+INSERT IGNORE INTO `spelldifficulty_dbc` (`id`, `spellid0`, `spellid1`, `spellid2`, `spellid3`) VALUES ('2146', '70816', '72233', '72234', '72235');
+INSERT IGNORE INTO `spelldifficulty_dbc` (`id`, `spellid0`) VALUES ('2202', '42636');
+INSERT IGNORE INTO `spelldifficulty_dbc` (`id`, `spellid0`) VALUES ('2203', '45433');
+INSERT IGNORE INTO `spelldifficulty_dbc` (`id`, `spellid0`, `spellid1`) VALUES ('3251', '90120', '92943');
+INSERT IGNORE INTO `spelldifficulty_dbc` (`id`, `spellid0`, `spellid1`) VALUES ('3255', '90059', '92948');
+INSERT IGNORE INTO `spelldifficulty_dbc` (`id`, `spellid0`, `spellid1`) VALUES ('3258', '89289', '92951');
+INSERT IGNORE INTO `spelldifficulty_dbc` (`id`, `spellid0`, `spellid1`) VALUES ('3523', '75621', '94991');
+INSERT IGNORE INTO `spelldifficulty_dbc` (`id`, `spellid0`, `spellid1`) VALUES ('3579', '75708', '95858');
+INSERT IGNORE INTO `spelldifficulty_dbc` (`id`, `spellid0`, `spellid1`) VALUES ('3582', '92666', '95884');
+UPDATE `item_template` SET `spellid_2`='0' WHERE (`entry`='1030');
