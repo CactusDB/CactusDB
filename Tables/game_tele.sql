@@ -2,18 +2,19 @@
 Navicat MySQL Data Transfer
 
 Source Server         : Pridefire
-Source Server Version : 50500
-Source Host           : localhost:3306
+Source Server Version : 50508
+Source Host           : localhost:3307
 Source Database       : world
 
 Target Server Type    : MYSQL
-Target Server Version : 50500
+Target Server Version : 50508
 File Encoding         : 65001
 
-Date: 2010-12-09 11:35:44
+Date: 2011-01-02 15:22:34
 */
 
 SET FOREIGN_KEY_CHECKS=0;
+
 -- ----------------------------
 -- Table structure for `game_tele`
 -- ----------------------------
@@ -27,7 +28,7 @@ CREATE TABLE `game_tele` (
   `map` smallint(5) unsigned NOT NULL DEFAULT '0',
   `name` varchar(100) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=1419 DEFAULT CHARSET=utf8 COMMENT='Tele Command';
+) ENGINE=MyISAM AUTO_INCREMENT=1726 DEFAULT CHARSET=utf8 COMMENT='Tele Command';
 
 -- ----------------------------
 -- Records of game_tele
@@ -54,7 +55,7 @@ INSERT INTO `game_tele` VALUES ('296', '327.143', '-2253.88', '242.753', '3.9381
 INSERT INTO `game_tele` VALUES ('295', '317.4', '-2209.99', '213.239', '4.9592', '1', 'DreadmistDen');
 INSERT INTO `game_tele` VALUES ('294', '-7734.77', '-2609.01', '165.137', '4.22183', '0', 'DreadmaulRock');
 INSERT INTO `game_tele` VALUES ('293', '-11517.4', '-2851.64', '6.78542', '4.15663', '0', 'DreadmaulPost');
-INSERT INTO `game_tele` VALUES ('292', '-10895', '-2933.24', '12.8408', '6.26628', '0', 'DreadmaulHold');
+INSERT INTO `game_tele` VALUES ('1425', '-10874.4', '-2682.6', '9.46563', '0.821115', '0', 'DreadmaulHold');
 INSERT INTO `game_tele` VALUES ('291', '2672.5', '5852.8', '-15.4945', '1.64421', '530', 'DragonsEnd');
 INSERT INTO `game_tele` VALUES ('290', '-3453.27', '-3655.72', '58.0513', '4.29267', '0', 'DragonmawGates');
 INSERT INTO `game_tele` VALUES ('289', '-4193.21', '380.221', '118.023', '3.5046', '530', 'DragonmawFortress');
@@ -230,7 +231,7 @@ INSERT INTO `game_tele` VALUES ('120', '933.847', '5948.09', '121.211', '0.64113
 INSERT INTO `game_tele` VALUES ('119', '2639.37', '6526.93', '0.818903', '6.17248', '530', 'BladespireHold');
 INSERT INTO `game_tele` VALUES ('118', '2209.1', '6376.61', '-10.338', '3.27783', '530', 'BladespireGrounds');
 INSERT INTO `game_tele` VALUES ('117', '3037.67', '5962.86', '130.774', '1.27253', '530', 'BladesEdgeMountains');
-INSERT INTO `game_tele` VALUES ('116', '1324.36', '-5005.13', '0.814836', '5.04482', '1', 'BladefistBay');
+INSERT INTO `game_tele` VALUES ('1622', '1427.99', '-4891.11', '11.1838', '4.72046', '1', 'BladefistBay');
 INSERT INTO `game_tele` VALUES ('115', '2899.4', '5081.33', '264.302', '1.15416', '530', 'BladedGulch');
 INSERT INTO `game_tele` VALUES ('114', '2493.53', '-4222.79', '74.027', '1.21046', '0', 'BlackwoodLake');
 INSERT INTO `game_tele` VALUES ('113', '4621.7', '33.6288', '69.6487', '4.35643', '1', 'BlackwoodDen');
@@ -286,7 +287,7 @@ INSERT INTO `game_tele` VALUES ('64', '-215.738', '-309.394', '6.66761', '3.0732
 INSERT INTO `game_tele` VALUES ('63', '-3324.49', '4943.45', '-101.239', '4.63901', '530', 'Auchindoun');
 INSERT INTO `game_tele` VALUES ('62', '-3637.1', '5188.61', '-19.1186', '3.39151', '530', 'AuchenaiGrounds');
 INSERT INTO `game_tele` VALUES ('61', '-3362.04', '5209.85', '-101.05', '1.60924', '530', 'AuchenaiCrypts');
-INSERT INTO `game_tele` VALUES ('60', '6501.4', '481.607', '6.27062', '1.70033', '1', 'Auberdine');
+INSERT INTO `game_tele` VALUES ('1529', '6506.93', '471.258', '6.4263', '5.19849', '1', 'Auberdine');
 INSERT INTO `game_tele` VALUES ('59', '-3336.2', '363.236', '120.466', '0.150953', '530', 'AtaMalTerrace');
 INSERT INTO `game_tele` VALUES ('58', '2676.19', '-422.905', '107.123', '0.648691', '1', 'Astranaar');
 INSERT INTO `game_tele` VALUES ('57', '1928.34', '-2165.95', '93.7896', '0.205731', '1', 'Ashenvale');
@@ -357,7 +358,7 @@ INSERT INTO `game_tele` VALUES ('322', '8748.09', '-7067.4', '37.1027', '4.29194
 INSERT INTO `game_tele` VALUES ('323', '-9450.82', '-1299.92', '42.7818', '5.20197', '0', 'EastvaleLoggingCamp');
 INSERT INTO `game_tele` VALUES ('324', '3194.88', '-4038.96', '107.991', '6.27156', '0', 'EastwallGate');
 INSERT INTO `game_tele` VALUES ('325', '2521.67', '-4756.54', '99.988', '5.5003', '0', 'EastwallTower');
-INSERT INTO `game_tele` VALUES ('326', '-1041.59', '-5346.67', '0.218679', '4.0102', '1', 'EchoIsles');
+INSERT INTO `game_tele` VALUES ('1618', '-1281.01', '-5555.94', '20.9241', '2.5847', '1', 'DarkspearHold');
 INSERT INTO `game_tele` VALUES ('327', '-148.859', '387.324', '-38.5684', '2.99526', '70', 'EchonokCaver');
 INSERT INTO `game_tele` VALUES ('328', '-8689.6', '-114.525', '88.8215', '5.95046', '0', 'EchoRidgeMine');
 INSERT INTO `game_tele` VALUES ('329', '-4472.37', '1671.36', '162.888', '3.88687', '530', 'EclipsePoint');
@@ -403,7 +404,7 @@ INSERT INTO `game_tele` VALUES ('368', '9850.54', '-7396.79', '13.6387', '0.8940
 INSERT INTO `game_tele` VALUES ('369', '276.636', '-3689.5', '27.8892', '1.64403', '1', 'FarWatchPost');
 INSERT INTO `game_tele` VALUES ('370', '-4985.61', '1590.89', '63.7734', '1.179', '1', 'FearScarVale');
 INSERT INTO `game_tele` VALUES ('371', '82.3052', '-2086.59', '112.764', '3.16252', '0', 'FeatherbeardsHovel');
-INSERT INTO `game_tele` VALUES ('372', '-4317.47', '3287.35', '18.2864', '3.12825', '1', 'FeathermoonStronghold');
+INSERT INTO `game_tele` VALUES ('1587', '-4437.57', '3276.7', '11.8283', '3.62933', '1', 'RuinsofFeathermoon');
 INSERT INTO `game_tele` VALUES ('373', '2038.72', '-2981.96', '105.815', '4.69104', '1', 'FelfireHill');
 INSERT INTO `game_tele` VALUES ('374', '6851.06', '-1912.89', '550.904', '3.00564', '1', 'FelpawVillage');
 INSERT INTO `game_tele` VALUES ('375', '10041.9', '1031.59', '1329.46', '0.24968', '1', 'FelRock');
@@ -473,7 +474,7 @@ INSERT INTO `game_tele` VALUES ('438', '-1518.71', '-3067.96', '14.751', '0.0056
 INSERT INTO `game_tele` VALUES ('439', '-2458.16', '4935.8', '33.7396', '0.969919', '530', 'GrangolvarVillage');
 INSERT INTO `game_tele` VALUES ('440', '87.2504', '-223.637', '9.64243', '4.2607', '1', 'GreatwoodVale');
 INSERT INTO `game_tele` VALUES ('441', '2185.38', '-1580.47', '85.9111', '0.829216', '1', 'GreenpawVillage');
-INSERT INTO `game_tele` VALUES ('442', '-4074.39', '-3459.53', '281.388', '0.859539', '0', 'GrimBatol');
+INSERT INTO `game_tele` VALUES ('1444', '-4062.23', '-3450.43', '280.571', '0.390264', '0', 'Grimbatol');
 INSERT INTO `game_tele` VALUES ('443', '-7011.77', '-1729.52', '234.099', '4.78807', '0', 'GrimesiltDigSite');
 INSERT INTO `game_tele` VALUES ('444', '-4188.75', '629.705', '70.4892', '4.89549', '1', 'GrimtotemCompound');
 INSERT INTO `game_tele` VALUES ('445', '108.029', '-322.863', '3.36205', '4.62591', '1', 'GrimtotemPost');
@@ -513,7 +514,7 @@ INSERT INTO `game_tele` VALUES ('478', '-9127.98', '-1052.89', '70.604', '2.1137
 INSERT INTO `game_tele` VALUES ('479', '3554.3', '-6232.61', '44.262', '2.12438', '1', 'HetaerasClutch');
 INSERT INTO `game_tele` VALUES ('480', '1001.29', '7586.72', '22.1567', '1.60094', '530', 'HewnBog');
 INSERT INTO `game_tele` VALUES ('481', '-807.114', '-4111.26', '55.5967', '4.7919', '1', 'HiddenPath');
-INSERT INTO `game_tele` VALUES ('482', '-4979.56', '-969.821', '-4.67023', '1.93765', '1', 'Highperch');
+INSERT INTO `game_tele` VALUES ('1551', '-5020.04', '-941.02', '0.304255', '2.32642', '1', 'Highperch');
 INSERT INTO `game_tele` VALUES ('483', '-4610.67', '1700.18', '114.705', '3.05218', '1', 'HighWilderness');
 INSERT INTO `game_tele` VALUES ('484', '-510.344', '9.53799', '50.345', '1.33728', '0', 'HillsbradFields');
 INSERT INTO `game_tele` VALUES ('485', '-436.657', '-581.254', '53.5944', '1.25917', '0', 'HillsbradFoothills');
@@ -563,7 +564,7 @@ INSERT INTO `game_tele` VALUES ('528', '-9971.72', '-115.655', '26.3099', '5.380
 INSERT INTO `game_tele` VALUES ('529', '-12135', '17.9116', '-4.73151', '4.10564', '0', 'KalaiRuins');
 INSERT INTO `game_tele` VALUES ('530', '-11091.2', '-1992.38', '49.816', '0.95178', '532', 'Kara');
 INSERT INTO `game_tele` VALUES ('531', '-11118.9', '-2010.33', '47.0819', '0.649895', '0', 'Karazhan');
-INSERT INTO `game_tele` VALUES ('532', '-6692.48', '-2175.31', '244.145', '0.427571', '0', 'Kargath');
+INSERT INTO `game_tele` VALUES ('1439', '-6744.02', '-2545.36', '241.881', '5.31354', '0', 'NewKargath');
 INSERT INTO `game_tele` VALUES ('533', '2440.86', '-3506.6', '99.3423', '4.69889', '1', 'KargathiaKeep');
 INSERT INTO `game_tele` VALUES ('534', '-2676.89', '-12141.3', '17.2281', '5.52763', '530', 'KesselsCrossing');
 INSERT INTO `game_tele` VALUES ('535', '-5597.31', '-483.398', '396.981', '3.17566', '0', 'Kharanos');
@@ -646,7 +647,7 @@ INSERT INTO `game_tele` VALUES ('611', '1082.04', '-474.596', '-107.762', '5.026
 INSERT INTO `game_tele` VALUES ('612', '-28.906', '0.680314', '-1.81282', '6.26827', '554', 'Mech');
 INSERT INTO `game_tele` VALUES ('613', '-3236.59', '-12713.5', '27.0563', '3.45338', '530', 'MenagerieWreckage');
 INSERT INTO `game_tele` VALUES ('614', '-3977.14', '-898.953', '8.83729', '0.524569', '0', 'MenethilBay');
-INSERT INTO `game_tele` VALUES ('615', '-3769.32', '-744.26', '8.01027', '1.95752', '0', 'MenethilHarbor');
+INSERT INTO `game_tele` VALUES ('1499', '-3749.15', '-849.84', '0.375742', '3.65398', '0', 'MenethilHarbor');
 INSERT INTO `game_tele` VALUES ('616', '15.2235', '-0.221107', '-2.79687', '0.007752', '585', 'Mgt');
 INSERT INTO `game_tele` VALUES ('617', '-2390.97', '-11785.5', '16.2604', '2.27998', '530', 'Middenvale');
 INSERT INTO `game_tele` VALUES ('618', '3371.2', '2883.39', '143.893', '1.73852', '530', 'MidrealmPost');
@@ -734,7 +735,7 @@ INSERT INTO `game_tele` VALUES ('699', '29.1607', '-71.3372', '-8.18032', '4.435
 INSERT INTO `game_tele` VALUES ('700', '-4708.27', '-3727.64', '54.5589', '3.72786', '1', 'OnyxiasLair');
 INSERT INTO `game_tele` VALUES ('701', '-7663.74', '-1217.4', '287.789', '5.33945', '0', 'OrbOfCommand');
 INSERT INTO `game_tele` VALUES ('702', '958.66', '7374.02', '27.9079', '6.12064', '530', 'OreborHarborage');
-INSERT INTO `game_tele` VALUES ('703', '1629.36', '-4373.39', '31.2564', '3.54839', '1', 'Orgrimmar');
+INSERT INTO `game_tele` VALUES ('1419', '1571.49', '-4398.65', '15.9733', '0.621998', '1', 'Orgrimmar');
 INSERT INTO `game_tele` VALUES ('704', '-2790.42', '1265.35', '74.8801', '3.51465', '530', 'OronoksFarm');
 INSERT INTO `game_tele` VALUES ('705', '-7583.14', '223.826', '12.1392', '5.11522', '1', 'OrtellsHideout');
 INSERT INTO `game_tele` VALUES ('706', '-2417.03', '8314.75', '-37.5225', '3.13613', '530', 'Oshugun');
@@ -1404,7 +1405,7 @@ INSERT INTO `game_tele` VALUES ('1369', '-1088.38', '2998.27', '8.18949', '2.739
 INSERT INTO `game_tele` VALUES ('1370', '-1005.37', '2030.91', '67.873', '3.12703', '530', 'ZethGor');
 INSERT INTO `game_tele` VALUES ('1371', '-11916.9', '-1248.36', '92.5334', '4.72417', '309', 'ZG');
 INSERT INTO `game_tele` VALUES ('1372', '-12659.8', '-458.71', '29.312', '3.65797', '0', 'ZiatajaiRuins');
-INSERT INTO `game_tele` VALUES ('1373', '3376.86', '1013.05', '3.34387', '3.81699', '1', 'ZoramgarOutpost');
+INSERT INTO `game_tele` VALUES ('1422', '3360.26', '1018.01', '3.52035', '5.76859', '1', 'zoramgaroutpost');
 INSERT INTO `game_tele` VALUES ('1374', '6851.78', '-7972.57', '179.242', '4.64691', '530', 'ZulAman');
 INSERT INTO `game_tele` VALUES ('1375', '-6801.19', '-2893.02', '9.00388', '0.158639', '1', 'ZulFarrak');
 INSERT INTO `game_tele` VALUES ('1376', '-11916.7', '-1215.72', '92.289', '4.72454', '0', 'ZulGurub');
@@ -1439,7 +1440,7 @@ INSERT INTO `game_tele` VALUES ('1404', '6898.72', '-4584.94', '451.12', '2.3445
 INSERT INTO `game_tele` VALUES ('1405', '7527.14', '-1260.89', '919.049', '2.0696', '571', 'StormPeaks');
 INSERT INTO `game_tele` VALUES ('1406', '9049.37', '-1282.35', '1060.19', '5.8395', '571', 'Ulduar');
 INSERT INTO `game_tele` VALUES ('1407', '7253.64', '1644.78', '433.68', '4.83412', '571', 'Icecrown');
-INSERT INTO `game_tele` VALUES ('1408', '-8451.97', '346.932', '120.886', '5.36692', '0', 'StormwindKeep');
+INSERT INTO `game_tele` VALUES ('1420', '-8492.63', '399.867', '115.767', '5.341', '0', 'StormwindKeep');
 INSERT INTO `game_tele` VALUES ('1409', '-9003.05', '874.064', '148.619', '3.47324', '0', 'WizardsSanctum');
 INSERT INTO `game_tele` VALUES ('1410', '5453.72', '2840.79', '421.28', '0', '571', 'VaultOfArchavon');
 INSERT INTO `game_tele` VALUES ('1411', '4774.6', '-2032.92', '229.15', '1.59', '571', 'DrakTharonKeep');
@@ -1450,3 +1451,297 @@ INSERT INTO `game_tele` VALUES ('1415', '5696.73', '507.4', '652.97', '4.03', '5
 INSERT INTO `game_tele` VALUES ('1416', '3412.88', '-2791.17', '201.521', '2.2458', '571', 'AmberpineLodge');
 INSERT INTO `game_tele` VALUES ('1417', '3682.71', '-722.635', '212.729', '5.7991', '571', 'WintergardeKeep');
 INSERT INTO `game_tele` VALUES ('1418', '5873.82', '2110.98', '636.011', '3.5523', '571', 'IcecrownCitadelRaid');
+INSERT INTO `game_tele` VALUES ('1421', '849.887', '1047.82', '-7.21361', '5.17182', '730', 'Maelstrom');
+INSERT INTO `game_tele` VALUES ('1423', '3028.46', '-535.834', '205.637', '1.67599', '1', 'HellscreamsWatch');
+INSERT INTO `game_tele` VALUES ('1424', '2083.1', '-1190.57', '100.995', '3.16275', '1', 'SilverwingRefuge');
+INSERT INTO `game_tele` VALUES ('1426', '-12225.9', '-2464.37', '38.9107', '3.17497', '0', 'Maldraz');
+INSERT INTO `game_tele` VALUES ('1427', '-12444.9', '-2417.35', '2.89744', '5.79035', '0', 'TaintedForest');
+INSERT INTO `game_tele` VALUES ('1428', '-12718.8', '-2859.98', '1.39573', '3.93602', '0', 'Surwich');
+INSERT INTO `game_tele` VALUES ('1429', '-12839.7', '-432.057', '13.1104', '3.79464', '0', 'FortLivingston');
+INSERT INTO `game_tele` VALUES ('1430', '-12109.3', '-848.865', '46.8417', '5.94663', '0', 'Bambala');
+INSERT INTO `game_tele` VALUES ('1431', '-13284.6', '735.409', '3.14799', '5.50052', '0', 'HardwrenchHideaway');
+INSERT INTO `game_tele` VALUES ('1432', '-13622.2', '-68.3346', '35.2397', '3.04144', '0', 'ExplorersLeagueDigSite');
+INSERT INTO `game_tele` VALUES ('1433', '-7933.5', '-1904.26', '132.553', '5.83975', '0', 'Chiselgrip');
+INSERT INTO `game_tele` VALUES ('1434', '-10143', '-3791.27', '17.3551', '0.276046', '0', 'MarshtideWatch');
+INSERT INTO `game_tele` VALUES ('1435', '-9787.68', '-3893.98', '21.7214', '2.18456', '0', 'Bogpaddle');
+INSERT INTO `game_tele` VALUES ('1436', '-9144.61', '-3046.24', '108.723', '5.92301', '0', 'KeeshansPost');
+INSERT INTO `game_tele` VALUES ('1437', '-9616.57', '-3478.58', '122.42', '5.62009', '0', 'ShalewindCanyon');
+INSERT INTO `game_tele` VALUES ('1438', '-7108.97', '-1195.1', '323.928', '4.68522', '0', 'IronSummit');
+INSERT INTO `game_tele` VALUES ('1440', '-6903.45', '-3505.93', '242.085', '1.26637', '0', 'BloodwatcherPoint');
+INSERT INTO `game_tele` VALUES ('1441', '-6614.67', '-3416.83', '279.172', '0.775497', '0', 'DustwindDig');
+INSERT INTO `game_tele` VALUES ('1442', '-6612.49', '-3894.86', '379.13', '4.38126', '0', 'Fuselight');
+INSERT INTO `game_tele` VALUES ('1443', '-4600.92', '-4118.29', '331.717', '3.46824', '0', 'TwilightCitadel');
+INSERT INTO `game_tele` VALUES ('1445', '-3083.78', '-3989.05', '266.138', '0.286578', '0', 'VErmillionRedoubt');
+INSERT INTO `game_tele` VALUES ('1446', '-3145.56', '-4445.8', '183.465', '1.4686', '0', 'GlopgutsHollow');
+INSERT INTO `game_tele` VALUES ('1447', '-3202.07', '-5021.2', '119.823', '4.85837', '0', 'Thundermar');
+INSERT INTO `game_tele` VALUES ('1448', '-2775.37', '-5340.91', '173.805', '0.91174', '0', 'Kirthhaven');
+INSERT INTO `game_tele` VALUES ('1449', '-2676.42', '-5042.87', '129.829', '1.22983', '0', 'MawofMadness');
+INSERT INTO `game_tele` VALUES ('1450', '-2708.5', '-5661.92', '379.065', '2.45033', '0', 'ThunderstrikeMountain');
+INSERT INTO `game_tele` VALUES ('1451', '-2766.82', '-6439.01', '247.915', '3.88289', '0', 'TheKrazzworks');
+INSERT INTO `game_tele` VALUES ('1452', '-4021.72', '-6365.27', '37.8157', '2.10868', '0', 'DragonmawPort');
+INSERT INTO `game_tele` VALUES ('1453', '-3873.27', '-5701.33', '43.3167', '1.04839', '0', 'GorshakWarCamp');
+INSERT INTO `game_tele` VALUES ('1454', '-3676.87', '-5312.67', '35.7687', '4.44131', '0', 'Bloodgulch');
+INSERT INTO `game_tele` VALUES ('1455', '-4187.99', '-5154.8', '-7.56141', '1.92804', '0', 'CrucibleofCarnage');
+INSERT INTO `game_tele` VALUES ('1456', '-4192.53', '-4737.7', '126.786', '1.71991', '0', 'VictorsPoint');
+INSERT INTO `game_tele` VALUES ('1457', '-4378.07', '-4581.8', '180.926', '4.94789', '0', 'TwilightGate');
+INSERT INTO `game_tele` VALUES ('1458', '-4858.27', '-4848.96', '196.575', '1.03269', '0', 'Crushblow');
+INSERT INTO `game_tele` VALUES ('1459', '-4184.4', '-5605.28', '25.5473', '3.84049', '0', 'FirebrandsPatrol');
+INSERT INTO `game_tele` VALUES ('1460', '-4791.29', '-6685.08', '5.51092', '1.64216', '0', 'Highbank');
+INSERT INTO `game_tele` VALUES ('1461', '-27.4946', '-2805.86', '122.257', '2.51499', '0', 'HiriwathaResearchStation');
+INSERT INTO `game_tele` VALUES ('1462', '327.169', '-4127.62', '117.192', '6.19694', '0', 'StormfeatherOutpost');
+INSERT INTO `game_tele` VALUES ('1463', '-570.189', '-1066.48', '60.52', '2.71922', '0', 'EastpointTower');
+INSERT INTO `game_tele` VALUES ('1464', '-962.552', '-1587.32', '51.3152', '0.63242', '0', 'GalensFall');
+INSERT INTO `game_tele` VALUES ('1465', '-574.979', '19.3976', '47.6175', '5.02595', '0', 'TheSludgeFields');
+INSERT INTO `game_tele` VALUES ('1466', '-213.007', '103.418', '63.388', '6.03126', '0', 'SludgeguardTower');
+INSERT INTO `game_tele` VALUES ('1467', '-587.561', '428.44', '79.6859', '0.151762', '0', 'SouthpointGate');
+INSERT INTO `game_tele` VALUES ('1468', '-155.578', '1257.23', '51.7183', '1.04319', '0', 'TheForsakenFront');
+INSERT INTO `game_tele` VALUES ('1469', '1070.74', '1571.1', '28.0402', '6.16045', '0', 'ForsakenRearGuard');
+INSERT INTO `game_tele` VALUES ('1470', '1384.07', '1037.13', '54.1925', '3.53565', '0', 'ForsakenHighCommand');
+INSERT INTO `game_tele` VALUES ('1471', '2231.18', '1023.88', '36.3924', '4.08502', '0', 'CalstonEstate');
+INSERT INTO `game_tele` VALUES ('1472', '1857.7', '-1756.25', '60.1443', '4.94268', '0', 'TheMendersStead');
+INSERT INTO `game_tele` VALUES ('1473', '1918.48', '-2646.76', '59.6194', '2.80796', '0', 'FionasCaravan');
+INSERT INTO `game_tele` VALUES ('1474', '2251.5', '-4419.66', '111.731', '5.05262', '0', 'LightsShieldTower');
+INSERT INTO `game_tele` VALUES ('1475', '-869.649', '1559', '29.5733', '3.03494', '0', 'RuinsofGilneas');
+INSERT INTO `game_tele` VALUES ('1476', '-4440.64', '3815.32', '-82.8223', '3.48655', '0', 'TheBrinyCutter');
+INSERT INTO `game_tele` VALUES ('1477', '-4583.47', '3663.16', '-115.575', '3.43079', '0', 'SeafarersTomb');
+INSERT INTO `game_tele` VALUES ('1478', '-4444.46', '4017.24', '-51.1982', '4.09131', '0', 'LegionsFate');
+INSERT INTO `game_tele` VALUES ('1479', '-4789.13', '3739.03', '-128.541', '3.63971', '0', 'KelptharForest');
+INSERT INTO `game_tele` VALUES ('1480', '-5071.76', '3585.73', '-144.859', '2.78755', '0', 'GurbogglesLEdge');
+INSERT INTO `game_tele` VALUES ('1481', '-5451.66', '3473.97', '-131.52', '2.69723', '0', 'TheClutch');
+INSERT INTO `game_tele` VALUES ('1482', '-5131.16', '3280.08', '-118.244', '2.46318', '0', 'DeepmistGrotto');
+INSERT INTO `game_tele` VALUES ('1483', '-5119.55', '3394.5', '-119.945', '5.20422', '0', 'GnawsBoneyard');
+INSERT INTO `game_tele` VALUES ('1484', '-4956.78', '3361.26', '-78.4193', '0.240503', '0', 'TheSkeletalReef');
+INSERT INTO `game_tele` VALUES ('1485', '-4701.86', '3464.68', '-82.8205', '1.12015', '0', 'GorroksLament');
+INSERT INTO `game_tele` VALUES ('1486', '-4564.67', '3467.91', '-101.524', '2.50637', '0', 'SMugglersScar');
+INSERT INTO `game_tele` VALUES ('1487', '-5358.04', '3896.8', '2.94341', '0.745509', '0', 'ShimmeringExpanse');
+INSERT INTO `game_tele` VALUES ('1488', '-5767.16', '3958.75', '-211.124', '5.87337', '0', 'ShimmeringGrotto');
+INSERT INTO `game_tele` VALUES ('1489', '-6193.27', '3498.74', '-468.877', '3.13312', '0', 'RuinsofThelseraiTemple');
+INSERT INTO `game_tele` VALUES ('1490', '-6378.57', '3828.17', '-172.181', '3.14097', '0', 'Nespirah');
+INSERT INTO `game_tele` VALUES ('1491', '-7413.64', '4045.64', '-100.391', '3.08162', '0', 'BielaranRidge');
+INSERT INTO `game_tele` VALUES ('1492', '-7294.58', '4873.67', '-280.846', '1.39301', '0', 'QuelDormirTerrace');
+INSERT INTO `game_tele` VALUES ('1493', '-6952.26', '5079.22', '-287.541', '6.27583', '0', 'NarsholaTerrace');
+INSERT INTO `game_tele` VALUES ('1494', '-6767.98', '5077.1', '-345.671', '0.004424', '0', 'RuinsofVashjir');
+INSERT INTO `game_tele` VALUES ('1495', '-4122.11', '-2761.88', '17.9337', '4.21947', '0', 'SlabchiselsSurvey');
+INSERT INTO `game_tele` VALUES ('1496', '-3259.08', '-2747.8', '11.8654', '5.3316', '0', 'GreenwardensGrove');
+INSERT INTO `game_tele` VALUES ('1497', '-3237.52', '-1996.57', '50.5491', '0.740159', '0', 'WhelgarsRetreat');
+INSERT INTO `game_tele` VALUES ('1498', '-2869.55', '-1489.14', '9.751', '1.25381', '0', 'SwiftgearStation');
+INSERT INTO `game_tele` VALUES ('1500', '-5317.71', '-217.358', '440.936', '0.835165', '0', 'ShimerrRidgr');
+INSERT INTO `game_tele` VALUES ('1501', '-5172.99', '473.902', '388.722', '5.47687', '0', 'NewTinkertown');
+INSERT INTO `game_tele` VALUES ('1502', '-5421.37', '491.22', '385.024', '3.56207', '0', 'ToxicAirfield');
+INSERT INTO `game_tele` VALUES ('1503', '-4637.48', '-1695.75', '503.324', '3.95084', '0', 'IronforgeAirport');
+INSERT INTO `game_tele` VALUES ('1504', '4746.74', '-4919.45', '884.328', '0.789974', '1', 'DoomsVigil');
+INSERT INTO `game_tele` VALUES ('1505', '4576.4', '-4694.69', '883.016', '4.14943', '1', 'ForgeofSupplication');
+INSERT INTO `game_tele` VALUES ('1506', '4788.75', '-4228.18', '894.168', '1.17513', '1', 'SeatoftheChosen');
+INSERT INTO `game_tele` VALUES ('1507', '4105.75', '-3991', '970.667', '3.15041', '1', 'GatesofSothann');
+INSERT INTO `game_tele` VALUES ('1508', '3924.72', '-3426.34', '1011.92', '3.93345', '1', 'AscendantsRise');
+INSERT INTO `game_tele` VALUES ('1509', '3996.55', '-2965.05', '1002.55', '1.89298', '1', 'SulfuronSpire');
+INSERT INTO `game_tele` VALUES ('1510', '3428.95', '-2435.37', '968.778', '3.90753', '1', 'SehtriasRoost');
+INSERT INTO `game_tele` VALUES ('1511', '4534.98', '-2578.82', '1123.8', '5.58828', '1', 'TheRegrowth');
+INSERT INTO `game_tele` VALUES ('1512', '4563.34', '-2580.15', '829.437', '1.25837', '1', 'FirelandsHatchery');
+INSERT INTO `game_tele` VALUES ('1513', '4424', '-2082.46', '1210.66', '2.39564', '1', 'SanctuaryofMalorne');
+INSERT INTO `game_tele` VALUES ('1514', '5117.84', '-1764.43', '1333.67', '0.359885', '1', 'GroveofAessina');
+INSERT INTO `game_tele` VALUES ('1515', '4922.2', '-1862.36', '1333.43', '4.82958', '1', 'BlackhornsPenance');
+INSERT INTO `game_tele` VALUES ('1516', '5036.41', '-2045.99', '1368.39', '5.2961', '1', 'LightningLedge');
+INSERT INTO `game_tele` VALUES ('1517', '5030.96', '-2032.44', '1148.98', '4.42431', '1', 'FirelandsForgeworks');
+INSERT INTO `game_tele` VALUES ('1518', '5357.79', '-2185.19', '1285.77', '5.84588', '1', 'ShrineofGoldrinn');
+INSERT INTO `game_tele` VALUES ('1519', '5164.29', '-2283.39', '1279.77', '3.98842', '1', 'MawofLycanthoth');
+INSERT INTO `game_tele` VALUES ('1520', '4918.17', '-2725.36', '1437.62', '4.34499', '1', 'ShrineofAviana');
+INSERT INTO `game_tele` VALUES ('1521', '5446.69', '-2793.97', '1516.2', '3.23364', '1', 'CircleofCinders');
+INSERT INTO `game_tele` VALUES ('1522', '5374.3', '-2933.95', '1540.95', '4.89869', '1', 'TheVerdantThicket');
+INSERT INTO `game_tele` VALUES ('1523', '5497.07', '-3572.97', '1569.26', '2.07911', '1', 'Nordrassil');
+INSERT INTO `game_tele` VALUES ('1524', '4653.99', '-3688.44', '955.265', '2.38149', '1', 'TheScorchedPlain');
+INSERT INTO `game_tele` VALUES ('1525', '4679.1', '-3675.53', '696.452', '1.3644', '1', 'TheCrucibleofFlame');
+INSERT INTO `game_tele` VALUES ('1526', '6888.13', '-1601.87', '500.034', '2.67768', '1', 'IrontreeClearing');
+INSERT INTO `game_tele` VALUES ('1527', '6103.26', '-876.087', '411.86', '2.71789', '1', 'WhisperwindGrove');
+INSERT INTO `game_tele` VALUES ('1528', '4736.27', '-871.435', '343.468', '0.987956', '1', 'WildheartPoint');
+INSERT INTO `game_tele` VALUES ('1530', '7372.23', '-250.557', '7.65159', '4.05495', '1', 'Lordanel');
+INSERT INTO `game_tele` VALUES ('1531', '7361.15', '-1089.86', '42.5336', '4.41858', '1', 'ShatterspearPass');
+INSERT INTO `game_tele` VALUES ('1532', '7861.19', '-1028.76', '31.4317', '2.89806', '1', 'shatterspearwarcamp');
+INSERT INTO `game_tele` VALUES ('1533', '7486.08', '-1536.77', '159.275', '5.56448', '1', 'ShatterspearVale');
+INSERT INTO `game_tele` VALUES ('1534', '6278.28', '265.272', '18.2156', '2.95226', '1', 'AuberdineRefugeeCamp');
+INSERT INTO `game_tele` VALUES ('1535', '5915.04', '192.702', '64.1486', '0.509667', '1', 'EyeoftheVortex');
+INSERT INTO `game_tele` VALUES ('1536', '5543.19', '474.356', '28.5956', '0.613335', '1', 'TheBlazingStrand');
+INSERT INTO `game_tele` VALUES ('1537', '4611.46', '942.484', '53.8799', '4.39503', '1', 'Nazjvel');
+INSERT INTO `game_tele` VALUES ('1538', '3884.63', '644.215', '10.4563', '1.013', '1', 'BlackfathomCamp');
+INSERT INTO `game_tele` VALUES ('1539', '1923.8', '-332.584', '118.252', '1.80087', '1', 'StardustSpire');
+INSERT INTO `game_tele` VALUES ('1540', '1150.16', '-3394.3', '91.6915', '0.316715', '1', 'NozzlepotsOutpost');
+INSERT INTO `game_tele` VALUES ('1541', '-1904.13', '-2811.99', '90.7991', '1.21283', '1', 'TeegansExpedition');
+INSERT INTO `game_tele` VALUES ('1542', '-1970.76', '-2571.7', '96.1465', '1.51207', '1', 'TheOvergrowth');
+INSERT INTO `game_tele` VALUES ('1543', '-1710.24', '-2207.87', '100.124', '2.6988', '1', 'NightmareScar');
+INSERT INTO `game_tele` VALUES ('1544', '-1463.28', '-1921.17', '94.9702', '3.06872', '1', 'CampUnafe');
+INSERT INTO `game_tele` VALUES ('1545', '-800.314', '-1564.79', '140.827', '5.84982', '1', 'HuntersHill');
+INSERT INTO `game_tele` VALUES ('1546', '-2113.27', '-1727.12', '97.2723', '2.69566', '1', 'VendettaPoint');
+INSERT INTO `game_tele` VALUES ('1547', '-2233.09', '-2304.05', '93.7337', '4.27431', '1', 'ForwardCommand');
+INSERT INTO `game_tele` VALUES ('1548', '-3288.59', '-1682.52', '122.621', '4.8858', '1', 'DesolationHold');
+INSERT INTO `game_tele` VALUES ('1549', '-3149.45', '-2285.36', '92.9994', '4.68945', '1', 'FortTriumph');
+INSERT INTO `game_tele` VALUES ('1550', '-3140.21', '-2002.59', '89.572', '0.754604', '1', 'Battlescar');
+INSERT INTO `game_tele` VALUES ('1552', '-4301.46', '-914.621', '80.9191', '4.50747', '1', 'WestreachSummit');
+INSERT INTO `game_tele` VALUES ('1553', '-5383.03', '-1292.82', '86.6787', '2.99401', '1', 'TwilightAerie');
+INSERT INTO `game_tele` VALUES ('1554', '-5635.75', '-1667.01', '92.0193', '2.89584', '1', 'TwilightBulwark');
+INSERT INTO `game_tele` VALUES ('1555', '-5806.69', '-2838.27', '106.036', '4.25065', '1', 'TwilightWithering');
+INSERT INTO `game_tele` VALUES ('1556', '-6113.1', '-3894.24', '6.18473', '5.34078', '1', 'FizzlePozziksSpeedbarge');
+INSERT INTO `game_tele` VALUES ('1557', '-5420.41', '-4295.4', '85.089', '3.5383', '1', 'SplithoofHeights');
+INSERT INTO `game_tele` VALUES ('1558', '-6222.69', '-4494.36', '88.2471', '2.855', '1', 'SouthseaHoldfast');
+INSERT INTO `game_tele` VALUES ('1559', '-9920.26', '-2167.54', '27.2207', '0.142144', '1', 'TombsofthePrecursors');
+INSERT INTO `game_tele` VALUES ('1560', '-10488.7', '-1890.17', '90.3234', '2.15434', '1', 'SunstoneTerrace');
+INSERT INTO `game_tele` VALUES ('1561', '-10182.8', '-2005.49', '54.8532', '1.69018', '1', 'HallsofOrigination');
+INSERT INTO `game_tele` VALUES ('1562', '-10183.5', '-2307.59', '38.8009', '1.57236', '1', 'TheStepsofFate');
+INSERT INTO `game_tele` VALUES ('1563', '-10181.6', '-2867.62', '4.99583', '1.84646', '1', 'TheCursedLanding');
+INSERT INTO `game_tele` VALUES ('1564', '-10448.2', '-2428.69', '46.7722', '1.55979', '1', 'TrailofDevastation');
+INSERT INTO `game_tele` VALUES ('1565', '-10645.7', '-2431.91', '100.357', '1.60691', '1', 'TomboftheSunKing');
+INSERT INTO `game_tele` VALUES ('1566', '-11099.3', '-1948.61', '2.76428', '5.42002', '1', 'VirnaalRiverDelta');
+INSERT INTO `game_tele` VALUES ('1567', '-10962.6', '-1479.8', '6.67713', '6.17793', '1', 'LostCityoftheTolVir');
+INSERT INTO `game_tele` VALUES ('1568', '-11484.4', '-2302.23', '605.18', '0.424881', '1', 'TheVortexPinnacle');
+INSERT INTO `game_tele` VALUES ('1569', '-11429.4', '-754.107', '136.566', '1.52051', '1', 'NefersetCity');
+INSERT INTO `game_tele` VALUES ('1570', '-11380.5', '119.991', '852.155', '5.48598', '1', 'ThroneoftheFourWinds');
+INSERT INTO `game_tele` VALUES ('1571', '-10944.7', '-343.55', '21.3991', '4.59063', '1', 'Cradleofthencients');
+INSERT INTO `game_tele` VALUES ('1572', '-10411.4', '-410.325', '339.841', '0.192397', '1', 'ObeliskoftheSun');
+INSERT INTO `game_tele` VALUES ('1573', '-10454.7', '-381.74', '226.145', '6.22033', '1', 'ChamberoftheSun');
+INSERT INTO `game_tele` VALUES ('1574', '-9861.54', '-859.273', '106.939', '5.48598', '1', 'VirnaalDam');
+INSERT INTO `game_tele` VALUES ('1575', '-9442.08', '-958.952', '111.013', '3.1392', '1', 'Ramkahen');
+INSERT INTO `game_tele` VALUES ('1576', '-9290.74', '-1550.98', '68.1297', '3.18319', '1', 'ObeliskoftheStars');
+INSERT INTO `game_tele` VALUES ('1577', '-9262.93', '-1456.33', '-170.202', '4.66839', '1', 'ChamberoftheStars');
+INSERT INTO `game_tele` VALUES ('1578', '-8986.96', '-1552.44', '94.4541', '0.014112', '1', 'KhartutsTomb');
+INSERT INTO `game_tele` VALUES ('1579', '-9077.22', '-747.827', '146.149', '1.83231', '1', 'SahketWastes');
+INSERT INTO `game_tele` VALUES ('1580', '-8967.31', '-24.6161', '143.444', '2.59022', '1', 'ObeliskoftheMoon');
+INSERT INTO `game_tele` VALUES ('1581', '-8799.07', '306.84', '140.359', '1.00057', '1', 'ChamberoftheMoon');
+INSERT INTO `game_tele` VALUES ('1582', '-9299.12', '346.449', '274.638', '1.54485', '1', 'TempleofUldum');
+INSERT INTO `game_tele` VALUES ('1583', '-9787.76', '-70.1306', '67.7241', '4.17987', '1', 'Orsis');
+INSERT INTO `game_tele` VALUES ('1584', '-10692.7', '424.547', '20.7643', '2.88004', '1', 'RuinsofAmmon');
+INSERT INTO `game_tele` VALUES ('1585', '-8681.98', '208.699', '339.877', '2.3868', '1', 'RuinsofKhintaset');
+INSERT INTO `game_tele` VALUES ('1586', '-8342.43', '783.254', '152.323', '1.25976', '1', 'OasisofVirsar');
+INSERT INTO `game_tele` VALUES ('1588', '-4531.53', '2242.21', '8.75675', '6.1315', '1', 'FeathermoonStronghold');
+INSERT INTO `game_tele` VALUES ('1589', '-4598.28', '1836.45', '88.6069', '6.16448', '1', 'StonemaulHold');
+INSERT INTO `game_tele` VALUES ('1590', '-4916.26', '1483.72', '84.7777', '3.2161', '1', 'TowerofEstulan');
+INSERT INTO `game_tele` VALUES ('1591', '-4991.49', '81.6896', '99.5467', '6.27044', '1', 'Shadebough');
+INSERT INTO `game_tele` VALUES ('1592', '-3194', '1896.75', '49.3339', '3.66535', '1', 'DreamersRest');
+INSERT INTO `game_tele` VALUES ('1593', '-3088.83', '2564.99', '50.18', '5.6689', '1', 'CampAtaya');
+INSERT INTO `game_tele` VALUES ('1594', '-616.52', '191.948', '53.0694', '1.21972', '1', 'StonetalonPass');
+INSERT INTO `game_tele` VALUES ('1595', '-2391.86', '-1610.42', '124.877', '1.46225', '1', 'TheGreatGate');
+INSERT INTO `game_tele` VALUES ('1596', '-1692.67', '2590.66', '136.836', '0.354191', '1', 'ThargadsCamp');
+INSERT INTO `game_tele` VALUES ('1597', '-979.241', '1658.22', '66.87', '4.73435', '1', 'KarnumsGlade');
+INSERT INTO `game_tele` VALUES ('1598', '-441.973', '2223.46', '89.495', '6.03183', '1', 'FuriensPost');
+INSERT INTO `game_tele` VALUES ('1599', '2842.46', '-4485.88', '95.1263', '4.22741', '1', 'MountainfootStripMine');
+INSERT INTO `game_tele` VALUES ('1600', '3281.8', '-4521.36', '266.995', '5.46441', '1', 'GallywixPleasurePalace');
+INSERT INTO `game_tele` VALUES ('1601', '2955.29', '-4998.92', '165.651', '2.90479', '1', 'OrgrimmarRocketwayExchange');
+INSERT INTO `game_tele` VALUES ('1602', '2574.92', '-5694.63', '109.526', '4.59025', '1', 'TheSecretLab');
+INSERT INTO `game_tele` VALUES ('1603', '2658.75', '-6171.88', '138.071', '4.70256', '1', 'SouthernRocketwayTerminus');
+INSERT INTO `game_tele` VALUES ('1604', '3517.69', '-6773.93', '70.5824', '1.50206', '1', 'BilgewaterHarbor');
+INSERT INTO `game_tele` VALUES ('1605', '4934.05', '-6456.48', '160.631', '5.05755', '1', 'ArcanePinnacle');
+INSERT INTO `game_tele` VALUES ('1606', '1363.95', '1045.29', '165.177', '2.12054', '1', 'MirkfallonPost');
+INSERT INTO `game_tele` VALUES ('1607', '1027.52', '2003.36', '126.734', '1.87314', '1', 'FarwatchersGlen');
+INSERT INTO `game_tele` VALUES ('1608', '1573.54', '1604.99', '114.222', '5.83861', '1', 'ThalDarahGrove');
+INSERT INTO `game_tele` VALUES ('1609', '2144.42', '1591.63', '341.255', '4.0534', '1', 'ThaldarahOverlook');
+INSERT INTO `game_tele` VALUES ('1610', '2127.89', '1259.97', '451.935', '4.46259', '1', 'CliffwalkerPost');
+INSERT INTO `game_tele` VALUES ('1611', '1751.89', '799.525', '130.922', '4.21047', '1', 'TheSLudgewerks');
+INSERT INTO `game_tele` VALUES ('1612', '1229.52', '436.619', '77.9145', '2.7025', '1', 'WindshearHold');
+INSERT INTO `game_tele` VALUES ('1613', '896.416', '-1.37233', '92.9033', '0.621201', '1', 'KromgarFortress');
+INSERT INTO `game_tele` VALUES ('1614', '1535.47', '-477.697', '55.8894', '4.42253', '1', 'TheFold');
+INSERT INTO `game_tele` VALUES ('1615', '347.118', '-645.768', '21.3829', '4.64245', '1', 'UnearthedGrounds');
+INSERT INTO `game_tele` VALUES ('1616', '259.17', '-298.3', '92.7365', '0.605501', '1', 'NorthwatchExpeditionBaseCamp');
+INSERT INTO `game_tele` VALUES ('1617', '-191.201', '-333.188', '9.79661', '5.53309', '1', 'Makajin');
+INSERT INTO `game_tele` VALUES ('1619', '-1107.88', '-5355.91', '14.4998', '4.31651', '1', 'DarkspearIsle');
+INSERT INTO `game_tele` VALUES ('1620', '-1098.7', '-5149.14', '2.0433', '4.9495', '1', 'EchoIsles');
+INSERT INTO `game_tele` VALUES ('1621', '-988.807', '-4553.99', '25.6564', '1.65475', '1', 'NorthwatchFoothold');
+INSERT INTO `game_tele` VALUES ('1623', '851.24', '1045.7', '-6.83044', '4.76182', '730', 'TheMaelstrom');
+INSERT INTO `game_tele` VALUES ('1624', '775.093', '-95.4299', '-61.0889', '0.501807', '646', 'DeathwingsFall');
+INSERT INTO `game_tele` VALUES ('1625', '772.704', '252.616', '-59.1849', '0.916497', '646', 'TheBloodTrail');
+INSERT INTO `game_tele` VALUES ('1626', '981.22', '517.28', '-49.3337', '0.237123', '646', 'TempleofEarth');
+INSERT INTO `game_tele` VALUES ('1627', '1027.29', '639.037', '156.673', '4.8325', '646', 'TheStonecore');
+INSERT INTO `game_tele` VALUES ('1628', '923.214', '750.789', '-69.0947', '1.2668', '646', 'QuartzineBasin');
+INSERT INTO `game_tele` VALUES ('1629', '692.297', '969.928', '181.039', '1.60452', '646', 'TwilightTerrace');
+INSERT INTO `game_tele` VALUES ('1630', '527.946', '1048.06', '75.1102', '2.15901', '646', 'MastersGate');
+INSERT INTO `game_tele` VALUES ('1648', '107.45', '1414.7', '220.506', '5.40033', '646', 'TheQuakingFields');
+INSERT INTO `game_tele` VALUES ('1632', '498.844', '1707.99', '344.629', '3.54524', '646', 'Stonehearth');
+INSERT INTO `game_tele` VALUES ('1633', '746.724', '1860.28', '326.773', '0.235568', '646', 'FracturedFront');
+INSERT INTO `game_tele` VALUES ('1634', '1212.12', '1896.71', '310.465', '3.10227', '646', 'NeedlerockSlag');
+INSERT INTO `game_tele` VALUES ('1635', '1411.82', '1759.14', '302.518', '5.96504', '646', 'NeedlerockChasm');
+INSERT INTO `game_tele` VALUES ('1636', '2132.07', '1107.12', '126.056', '5.88257', '646', 'ThePaleRoost');
+INSERT INTO `game_tele` VALUES ('1637', '2362.94', '179.012', '181.618', '6.26349', '646', 'TherazanesThrone');
+INSERT INTO `game_tele` VALUES ('1638', '1901.2', '45.0345', '-165.576', '4.46257', '646', 'CrumblingDepths');
+INSERT INTO `game_tele` VALUES ('1639', '1740.45', '-182.396', '27.8365', '0.347084', '646', 'TwilightPrecipice');
+INSERT INTO `game_tele` VALUES ('1640', '1869.01', '36.9268', '-78.3393', '0.661243', '646', 'ScouredReach');
+INSERT INTO `game_tele` VALUES ('1641', '1932.79', '-400.147', '172.066', '5.19692', '646', 'VerlokStand');
+INSERT INTO `game_tele` VALUES ('1642', '1285.28', '-487.408', '272.121', '2.49436', '646', 'CrimsonExpanse');
+INSERT INTO `game_tele` VALUES ('1643', '728.174', '-639.363', '146.382', '3.37401', '646', 'UpperSilvermarsh');
+INSERT INTO `game_tele` VALUES ('1644', '488.772', '-342.393', '47.0634', '4.44608', '646', 'LowerSilvermarsh');
+INSERT INTO `game_tele` VALUES ('1645', '226.463', '-516.672', '175.642', '3.05514', '646', 'AbyssionsLair');
+INSERT INTO `game_tele` VALUES ('1646', '244.239', '212.317', '38.6467', '4.40837', '646', 'StormsFuryWreckage');
+INSERT INTO `game_tele` VALUES ('1647', '-49.556', '428.105', '161.304', '4.32983', '646', 'AlabasterShelf');
+INSERT INTO `game_tele` VALUES ('1649', '1387.86', '841.479', '-53.7031', '3.95912', '646', 'JaggedWastes');
+INSERT INTO `game_tele` VALUES ('1650', '-1254.22', '1050.03', '106.995', '3.15094', '732', 'BaradinHold');
+INSERT INTO `game_tele` VALUES ('1651', '-1090.33', '1151.46', '120.737', '6.2729', '732', 'Dblock');
+INSERT INTO `game_tele` VALUES ('1652', '-882.322', '983.345', '121.442', '1.45056', '732', 'IroncladGarrison');
+INSERT INTO `game_tele` VALUES ('1653', '-1233.3', '789.026', '119.422', '4.6864', '732', 'CursedDepths');
+INSERT INTO `game_tele` VALUES ('1654', '-1044.63', '578.582', '147.929', '5.26367', '732', 'EastSpire');
+INSERT INTO `game_tele` VALUES ('1655', '-1419.54', '701.538', '123.422', '3.96776', '732', 'Slagworks');
+INSERT INTO `game_tele` VALUES ('1656', '-1570.19', '990.24', '168.438', '3.79105', '732', 'SouthSpire');
+INSERT INTO `game_tele` VALUES ('1657', '-1485.42', '1126.5', '124.3', '3.06692', '732', 'TheHole');
+INSERT INTO `game_tele` VALUES ('1658', '-1456.88', '1271.65', '133.584', '2.32471', '732', 'WardensVigil');
+INSERT INTO `game_tele` VALUES ('1659', '-1004.61', '1419.69', '176.253', '0.667525', '732', 'WestSpire');
+INSERT INTO `game_tele` VALUES ('1660', '-731.964', '1187.12', '104.467', '6.13782', '732', 'BlackstoneSpan');
+INSERT INTO `game_tele` VALUES ('1661', '-591.114', '1179.05', '95.6243', '2.99623', '732', 'TolBarad');
+INSERT INTO `game_tele` VALUES ('1662', '-369.122', '1060.32', '21.7401', '6.16531', '732', 'BaradinBaseCamp');
+INSERT INTO `game_tele` VALUES ('1663', '-249.233', '980.65', '49.3517', '0.573274', '732', 'LargosOverlook');
+INSERT INTO `game_tele` VALUES ('1664', '-21.3906', '1154.89', '15.2998', '2.55248', '732', 'RustbergVillage');
+INSERT INTO `game_tele` VALUES ('1665', '262.217', '1535.66', '2.5819', '2.75668', '732', 'CapeofLostHope');
+INSERT INTO `game_tele` VALUES ('1666', '-78.5566', '1624.89', '25.3212', '0.856015', '732', 'FarsonHold');
+INSERT INTO `game_tele` VALUES ('1667', '-101.674', '1880.94', '13.4682', '2.47001', '732', 'WellsonShipyard');
+INSERT INTO `game_tele` VALUES ('1668', '-605.364', '1734.09', '70.1185', '4.14762', '732', 'ForgottenHill');
+INSERT INTO `game_tele` VALUES ('1669', '-348.559', '1646.64', '18.7217', '6.03257', '732', 'TheRestlessFront');
+INSERT INTO `game_tele` VALUES ('1670', '-595.784', '1411.83', '21.2468', '4.19396', '732', 'HellscreamsGrasp');
+INSERT INTO `game_tele` VALUES ('1671', '-288.238', '1350.02', '22.766', '0.372992', '732', 'Darkwood');
+INSERT INTO `game_tele` VALUES ('1672', '-1438.16', '1403.35', '35.5561', '3.14788', '654', 'MerchantSquare');
+INSERT INTO `game_tele` VALUES ('1673', '-1729.72', '1391.04', '20.856', '3.85474', '654', 'MilitaryDistrict');
+INSERT INTO `game_tele` VALUES ('1674', '-1538.37', '1576.55', '28.7498', '3.78405', '654', 'LightsDawnCathedral');
+INSERT INTO `game_tele` VALUES ('1675', '-1443.88', '1668.02', '20.4857', '3.72907', '654', 'CathedralQuarter');
+INSERT INTO `game_tele` VALUES ('1676', '-1709.86', '1633.74', '20.4886', '5.7554', '654', 'GreymaneCourt');
+INSERT INTO `game_tele` VALUES ('1677', '-1208.11', '1822.38', '21.4234', '0.819172', '654', 'NorthernHeadlands');
+INSERT INTO `game_tele` VALUES ('1678', '-1146.02', '1153.21', '24.2837', '4.62758', '654', 'EmberstoneVillage');
+INSERT INTO `game_tele` VALUES ('1679', '-1374', '1207.3', '35.5597', '0.669172', '654', 'LiveryOutpost');
+INSERT INTO `game_tele` VALUES ('1680', '-1905.84', '970.246', '76.2242', '2.51486', '654', 'TempestsReach');
+INSERT INTO `game_tele` VALUES ('1681', '-2070.09', '1281', '-85.6562', '4.86712', '654', 'Taldoren');
+INSERT INTO `game_tele` VALUES ('1682', '-2091.79', '1449.26', '-64.6396', '1.82213', '654', 'TheBlackWald');
+INSERT INTO `game_tele` VALUES ('1683', '-2474.32', '1551.71', '16.5174', '0.871802', '654', 'StormglenVillage');
+INSERT INTO `game_tele` VALUES ('1684', '-2230.67', '1809.83', '11.9092', '1.02102', '654', 'StagecoachCrashSite');
+INSERT INTO `game_tele` VALUES ('1685', '-2372.76', '1984.3', '71.6796', '2.6468', '654', 'KorothsDen');
+INSERT INTO `game_tele` VALUES ('1686', '-2343.91', '2281.62', '0.39278', '3.86024', '654', 'HaywardFishery');
+INSERT INTO `game_tele` VALUES ('1687', '-1884.45', '2277.78', '42.2508', '5.58733', '654', 'Duskhaven');
+INSERT INTO `game_tele` VALUES ('1688', '-1949.66', '2578.64', '1.39337', '5.94076', '654', 'HammondFarmstead');
+INSERT INTO `game_tele` VALUES ('1689', '-2182.91', '2518.9', '3.53003', '2.5125', '654', 'DuskmistShore');
+INSERT INTO `game_tele` VALUES ('1690', '-2141.43', '2414.54', '10.7156', '1.43257', '654', 'WahlCottage');
+INSERT INTO `game_tele` VALUES ('1691', '-1614.56', '2528.8', '127.592', '0.635389', '654', 'GreymaneManor');
+INSERT INTO `game_tele` VALUES ('1692', '-1216.96', '2483.5', '65.6051', '5.73655', '654', 'TheHeadlands');
+INSERT INTO `game_tele` VALUES ('1693', '-1316.68', '2118.58', '5.62727', '5.77738', '654', 'KeelHarbor');
+INSERT INTO `game_tele` VALUES ('1694', '-1605.52', '1929.93', '16.7376', '4.29298', '654', 'AdericsRepose');
+INSERT INTO `game_tele` VALUES ('1695', '-680.828', '2243.91', '93.7377', '1.33203', '654', 'GalewatchLighthouse');
+INSERT INTO `game_tele` VALUES ('1696', '-7881.46', '1837.55', '4.17201', '0.022936', '648', 'GallywixYacht');
+INSERT INTO `game_tele` VALUES ('1697', '-8102.41', '1892.69', '54.5099', '3.15903', '648', 'GallywixsVilla');
+INSERT INTO `game_tele` VALUES ('1698', '-8082.08', '1504.16', '8.83278', '0.241278', '648', 'BilgewaterPort');
+INSERT INTO `game_tele` VALUES ('1699', '-8277.47', '1505.2', '43.4199', '4.45887', '648', 'KajaroField');
+INSERT INTO `game_tele` VALUES ('1700', '-8424.1', '1332.31', '102.256', '1.47828', '648', 'KTCHeadquarters');
+INSERT INTO `game_tele` VALUES ('1701', '-8399.77', '1330.13', '102.014', '0.221641', '648', 'KEzan');
+INSERT INTO `game_tele` VALUES ('1702', '-8459.5', '1197.79', '41.9041', '4.16434', '648', 'KAjamine');
+INSERT INTO `game_tele` VALUES ('1703', '-8367.1', '1564.2', '49.4087', '1.83563', '648', 'Drudgetown');
+INSERT INTO `game_tele` VALUES ('1704', '-8312.6', '1726.05', '50.4851', '3.16923', '648', 'BankofKezan');
+INSERT INTO `game_tele` VALUES ('1705', '-8158.86', '1642.63', '19.9116', '3.20065', '648', 'SwindleStreet');
+INSERT INTO `game_tele` VALUES ('1706', '2373.33', '2471.92', '12.0965', '5.42333', '648', 'GallywixDocks');
+INSERT INTO `game_tele` VALUES ('1707', '2108.23', '2561.84', '1.71463', '3.33181', '648', 'SlavePits');
+INSERT INTO `game_tele` VALUES ('1708', '1593.54', '2725', '82.8661', '3.02943', '648', 'WarchiefsLookout');
+INSERT INTO `game_tele` VALUES ('1709', '919.439', '2897.2', '100.502', '2.19691', '648', 'SavageGlen');
+INSERT INTO `game_tele` VALUES ('1710', '855.826', '2779.31', '113.027', '4.83192', '648', 'WildOverlook');
+INSERT INTO `game_tele` VALUES ('1711', '576.72', '3106.31', '2.43299', '5.40447', '648', 'ShipwreckShore');
+INSERT INTO `game_tele` VALUES ('1712', '552.376', '2701.19', '105.896', '3.99467', '648', 'HordeBaseCamp');
+INSERT INTO `game_tele` VALUES ('1713', '506.071', '2984.17', '7.16684', '5.53483', '648', 'KajamiteCavern');
+INSERT INTO `game_tele` VALUES ('1714', '931.96', '3316.82', '5.84954', '0.504359', '648', 'AllianceBeachhead');
+INSERT INTO `game_tele` VALUES ('1715', '173.675', '1940.15', '4.38497', '3.15899', '648', 'RuinsofVashjelan');
+INSERT INTO `game_tele` VALUES ('1716', '738.977', '1674.86', '118.462', '6.07989', '648', 'OomlotVillage');
+INSERT INTO `game_tele` VALUES ('1717', '1267.84', '1166.23', '117.798', '3.53519', '648', 'VolcanothsLaie');
+INSERT INTO `game_tele` VALUES ('1718', '1267.84', '1166.23', '117.798', '3.53519', '648', 'VolconathsLair');
+INSERT INTO `game_tele` VALUES ('1719', '1540.4', '1312.38', '108.357', '0.11557', '648', 'LostCaldera');
+INSERT INTO `game_tele` VALUES ('1720', '1880.97', '1511.68', '315.577', '3.29643', '648', 'LostPeak');
+INSERT INTO `game_tele` VALUES ('1721', '1666.41', '1672.48', '293.275', '2.74665', '648', 'Oostan');
+INSERT INTO `game_tele` VALUES ('1722', '915.683', '2284.91', '12.964', '1.50337', '648', 'LAndingSite');
+INSERT INTO `game_tele` VALUES ('1723', '2387.03', '2094.18', '1.88705', '6.0579', '648', 'KTCOilPlatform');
+INSERT INTO `game_tele` VALUES ('1724', '2338.04', '1945.63', '23.2704', '5.805', '648', 'BilgewaterLumberYard');
+INSERT INTO `game_tele` VALUES ('1725', '10273.9', '2433.42', '1330.48', '0.471968', '1', 'TheHowlingOak');
