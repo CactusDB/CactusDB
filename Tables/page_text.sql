@@ -2,18 +2,19 @@
 Navicat MySQL Data Transfer
 
 Source Server         : Pridefire
-Source Server Version : 50500
-Source Host           : localhost:3306
+Source Server Version : 50508
+Source Host           : localhost:3307
 Source Database       : world
 
 Target Server Type    : MYSQL
-Target Server Version : 50500
+Target Server Version : 50508
 File Encoding         : 65001
 
-Date: 2010-12-09 11:38:50
+Date: 2011-01-04 20:33:36
 */
 
 SET FOREIGN_KEY_CHECKS=0;
+
 -- ----------------------------
 -- Table structure for `page_text`
 -- ----------------------------
@@ -1822,3 +1823,9 @@ INSERT INTO `page_text` VALUES ('3480', 'Gunther Arcanus$B$BPresumably killed du
 INSERT INTO `page_text` VALUES ('3481', 'Bethor Iceshard$B$BKilled during the events of the third war. Bethor is known to have risen as a member of the Forsaken and should be treated as an agent of the Horde in all dealings.$B', '0', '11723');
 INSERT INTO `page_text` VALUES ('3107', '<The handwriting is unintelligible chicken scratch, but you can make out references to the color pink...>', '0', '12340');
 INSERT INTO `page_text` VALUES ('3622', 'Tail swooshing and hips swaying, the curvy figure walked purposefully across the lake toward the man resting by the shore; rising quickly as she approached, he appeared visibly happy to be in her presence.  Blue arms flowed over his shoulders as a smooth tail coiled seductively around his waist.  \"Why must I travel so far to be meeting man like you?\"  Her voice carried a strong, alluring accent.$B$BGrinning wildly, he gently pushed her away, openly staring as the light caught her features.$B$B\"Up here!\", she exclaimed in playful anger.$B$BWith a helpless shrug, he reached into his pack and pulled out a small pouch.  \"My wonderful Soola, I\'ve brought you something.\"  Confidence wrapped his words like a steel blanket.', '0', '1');
+INSERT INTO `page_text` VALUES ('3570', 'Day One:\r\n\r\nGot on a ship called Draka\'s Fury.  We\'re taking the special cargo to a far away place across the ocean.  I have the duty to clean stuff on the ship and scout when we get to land.\r\n\r\nBetter work than searching for Alliance rogues and druids in Orgrimmar.\r\n\r\nThe food is not as good, but the grog tastes the same.  Durotar has already slipped out of sight.', '3571', '0');
+INSERT INTO `page_text` VALUES ('3571', 'Day Two:\r\n\r\nThe food and rocking of the ship do not agree with me!\r\n\r\nThere is much to clean as there are many of my brothers who are sick.  This does not seem like a good idea to me, but if he needs to go, we will gladly follow him to the bottom of the sea.\r\n\r\nLet us hope that it does not come to that.', '3572', '0');
+INSERT INTO `page_text` VALUES ('3572', 'Day Three:\r\n\r\nThe sea lashes the ship very heavily.  The captain had us take down the sails.  We are like a child\'s toy in the middle of gigantic waves.\r\n\r\nI may not like the ocean, but I kept my food down today like a true warrior.', '3573', '0');
+INSERT INTO `page_text` VALUES ('3573', 'Day Four:\r\n\r\nThere are two small islands on the horizon.  The captain says that we will sail just past them.  He does not want to stop.  There is an edge to his voice that I do not like.  It sounds like fear.\r\n\r\nThere was much to do... what?  There are sounds of explosions outside.  I am going above deck to see what it is.', '3574', '0');
+INSERT INTO `page_text` VALUES ('3574', 'Day ??:\r\n\r\nI washed up on the rocky shore of an island.  It must be one of the two that I saw before.  Most of my brothers are dead.  There is no sign of our special cargo.  I fear the worst and cannot believe my thoughts.\r\n\r\nI do not know how many days have passed.  One, possibly two?  Surely not more.  The Alliance cowards came at us, hiding from behind the larger of the two islands.  There were too many of them, though we might have sunk one.\r\n\r\nI saw another ship sail right through the battle and get torn apart.  Goblins, I think.  Fools!', '3575', '0');
+INSERT INTO `page_text` VALUES ('3575', 'Day ?? and one:\r\n\r\nWe have a makeshift camp atop the island.  Aggra has asked me to look for other survivors on the western shore.  Kilag is to take a small group across the top looking for Alliance.  Already a few have attacked us.  They will not stop coming until they are all dead.  Or we are.\r\n\r\nThere are sounds of goblins off in the distance, and I can see the wreckage of their ship.  They are noisy.  I will watch them later.  First, I have found a cavern and strange sounds like animals and mining coming from within it.\r\n\r\nI will investigate.', '0', '0');

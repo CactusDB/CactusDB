@@ -2,18 +2,19 @@
 Navicat MySQL Data Transfer
 
 Source Server         : Pridefire
-Source Server Version : 50500
-Source Host           : localhost:3306
+Source Server Version : 50508
+Source Host           : localhost:3307
 Source Database       : world
 
 Target Server Type    : MYSQL
-Target Server Version : 50500
+Target Server Version : 50508
 File Encoding         : 65001
 
-Date: 2010-12-09 11:48:02
+Date: 2011-01-04 20:34:11
 */
 
 SET FOREIGN_KEY_CHECKS=0;
+
 -- ----------------------------
 -- Table structure for `spelldifficulty_dbc`
 -- ----------------------------
@@ -225,3 +226,14 @@ INSERT INTO `spelldifficulty_dbc` VALUES ('3191', '35322', '39193', '0', '0');
 INSERT INTO `spelldifficulty_dbc` VALUES ('3192', '35327', '39194', '0', '0');
 INSERT INTO `spelldifficulty_dbc` VALUES ('3193', '35275', '39084', '0', '0');
 INSERT INTO `spelldifficulty_dbc` VALUES ('3194', '35268', '39346', '0', '0');
+INSERT INTO `spelldifficulty_dbc` VALUES ('2108', '71356', '71803', '0', '0');
+INSERT INTO `spelldifficulty_dbc` VALUES ('2136', '72111', '72125', '0', '0');
+INSERT INTO `spelldifficulty_dbc` VALUES ('2146', '70816', '72233', '72234', '72235');
+INSERT INTO `spelldifficulty_dbc` VALUES ('2202', '42636', '0', '0', '0');
+INSERT INTO `spelldifficulty_dbc` VALUES ('2203', '45433', '0', '0', '0');
+INSERT INTO `spelldifficulty_dbc` VALUES ('3251', '90120', '92943', '0', '0');
+INSERT INTO `spelldifficulty_dbc` VALUES ('3255', '90059', '92948', '0', '0');
+INSERT INTO `spelldifficulty_dbc` VALUES ('3258', '89289', '92951', '0', '0');
+INSERT INTO `spelldifficulty_dbc` VALUES ('3523', '75621', '94991', '0', '0');
+INSERT INTO `spelldifficulty_dbc` VALUES ('3579', '75708', '95858', '0', '0');
+INSERT INTO `spelldifficulty_dbc` VALUES ('3582', '92666', '95884', '0', '0');

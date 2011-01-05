@@ -2,18 +2,19 @@
 Navicat MySQL Data Transfer
 
 Source Server         : Pridefire
-Source Server Version : 50500
-Source Host           : localhost:3306
+Source Server Version : 50508
+Source Host           : localhost:3307
 Source Database       : world
 
 Target Server Type    : MYSQL
-Target Server Version : 50500
+Target Server Version : 50508
 File Encoding         : 65001
 
-Date: 2010-12-09 11:38:14
+Date: 2011-01-04 20:33:08
 */
 
 SET FOREIGN_KEY_CHECKS=0;
+
 -- ----------------------------
 -- Table structure for `npc_gossip`
 -- ----------------------------
@@ -202,7 +203,6 @@ INSERT INTO `npc_gossip` VALUES ('49446', '7355');
 INSERT INTO `npc_gossip` VALUES ('43677', '7397');
 INSERT INTO `npc_gossip` VALUES ('43672', '7406');
 INSERT INTO `npc_gossip` VALUES ('84084', '7789');
-INSERT INTO `npc_gossip` VALUES ('86851', '11956');
 INSERT INTO `npc_gossip` VALUES ('86852', '11956');
 INSERT INTO `npc_gossip` VALUES ('17339', '11477');
 INSERT INTO `npc_gossip` VALUES ('19342', '11477');
@@ -224,79 +224,66 @@ INSERT INTO `npc_gossip` VALUES ('84972', '10280');
 INSERT INTO `npc_gossip` VALUES ('86861', '10427');
 INSERT INTO `npc_gossip` VALUES ('95240', '10608');
 INSERT INTO `npc_gossip` VALUES ('95279', '10608');
-INSERT INTO `npc_gossip` VALUES ('95341', '10608');
 INSERT INTO `npc_gossip` VALUES ('96214', '10608');
 INSERT INTO `npc_gossip` VALUES ('96324', '10608');
 INSERT INTO `npc_gossip` VALUES ('96364', '10608');
 INSERT INTO `npc_gossip` VALUES ('95238', '12684');
 INSERT INTO `npc_gossip` VALUES ('95275', '12684');
-INSERT INTO `npc_gossip` VALUES ('95339', '12684');
 INSERT INTO `npc_gossip` VALUES ('96212', '12684');
 INSERT INTO `npc_gossip` VALUES ('96322', '12684');
 INSERT INTO `npc_gossip` VALUES ('96399', '12684');
 INSERT INTO `npc_gossip` VALUES ('95235', '12532');
 INSERT INTO `npc_gossip` VALUES ('95285', '12532');
-INSERT INTO `npc_gossip` VALUES ('95342', '12532');
 INSERT INTO `npc_gossip` VALUES ('96211', '12532');
 INSERT INTO `npc_gossip` VALUES ('96331', '12532');
 INSERT INTO `npc_gossip` VALUES ('96398', '12532');
 INSERT INTO `npc_gossip` VALUES ('95209', '12550');
 INSERT INTO `npc_gossip` VALUES ('95282', '12550');
-INSERT INTO `npc_gossip` VALUES ('95348', '12550');
 INSERT INTO `npc_gossip` VALUES ('96257', '12550');
 INSERT INTO `npc_gossip` VALUES ('96333', '12550');
 INSERT INTO `npc_gossip` VALUES ('96397', '12550');
 INSERT INTO `npc_gossip` VALUES ('95206', '12549');
 INSERT INTO `npc_gossip` VALUES ('95284', '12549');
-INSERT INTO `npc_gossip` VALUES ('95370', '12549');
 INSERT INTO `npc_gossip` VALUES ('96239', '12549');
 INSERT INTO `npc_gossip` VALUES ('96336', '12549');
 INSERT INTO `npc_gossip` VALUES ('96400', '12549');
 INSERT INTO `npc_gossip` VALUES ('95210', '12548');
 INSERT INTO `npc_gossip` VALUES ('95283', '12548');
-INSERT INTO `npc_gossip` VALUES ('95369', '12548');
 INSERT INTO `npc_gossip` VALUES ('96237', '12548');
 INSERT INTO `npc_gossip` VALUES ('96328', '12548');
 INSERT INTO `npc_gossip` VALUES ('96396', '12548');
 INSERT INTO `npc_gossip` VALUES ('95213', '12541');
 INSERT INTO `npc_gossip` VALUES ('95281', '12541');
-INSERT INTO `npc_gossip` VALUES ('95371', '12541');
 INSERT INTO `npc_gossip` VALUES ('96230', '12541');
 INSERT INTO `npc_gossip` VALUES ('96332', '12541');
 INSERT INTO `npc_gossip` VALUES ('96389', '12541');
 INSERT INTO `npc_gossip` VALUES ('95236', '12546');
 INSERT INTO `npc_gossip` VALUES ('95274', '12546');
-INSERT INTO `npc_gossip` VALUES ('95330', '12546');
 INSERT INTO `npc_gossip` VALUES ('96240', '12546');
 INSERT INTO `npc_gossip` VALUES ('96323', '12546');
 INSERT INTO `npc_gossip` VALUES ('96391', '12546');
 INSERT INTO `npc_gossip` VALUES ('95234', '12545');
 INSERT INTO `npc_gossip` VALUES ('95280', '12545');
-INSERT INTO `npc_gossip` VALUES ('95336', '12545');
 INSERT INTO `npc_gossip` VALUES ('96229', '12545');
 INSERT INTO `npc_gossip` VALUES ('96329', '12545');
 INSERT INTO `npc_gossip` VALUES ('96395', '12545');
 INSERT INTO `npc_gossip` VALUES ('95243', '12544');
 INSERT INTO `npc_gossip` VALUES ('95288', '12544');
-INSERT INTO `npc_gossip` VALUES ('95340', '12544');
 INSERT INTO `npc_gossip` VALUES ('96226', '12544');
 INSERT INTO `npc_gossip` VALUES ('96335', '12544');
 INSERT INTO `npc_gossip` VALUES ('96394', '12544');
 INSERT INTO `npc_gossip` VALUES ('95227', '12539');
 INSERT INTO `npc_gossip` VALUES ('95287', '12539');
-INSERT INTO `npc_gossip` VALUES ('95335', '12539');
 INSERT INTO `npc_gossip` VALUES ('96238', '12539');
 INSERT INTO `npc_gossip` VALUES ('96334', '12539');
 INSERT INTO `npc_gossip` VALUES ('96390', '12539');
 INSERT INTO `npc_gossip` VALUES ('95228', '12543');
 INSERT INTO `npc_gossip` VALUES ('95273', '12543');
-INSERT INTO `npc_gossip` VALUES ('95329', '12543');
 INSERT INTO `npc_gossip` VALUES ('96228', '12543');
 INSERT INTO `npc_gossip` VALUES ('96325', '12543');
 INSERT INTO `npc_gossip` VALUES ('96367', '12543');
 INSERT INTO `npc_gossip` VALUES ('95226', '12540');
 INSERT INTO `npc_gossip` VALUES ('95286', '12540');
-INSERT INTO `npc_gossip` VALUES ('95361', '12540');
 INSERT INTO `npc_gossip` VALUES ('96236', '12540');
 INSERT INTO `npc_gossip` VALUES ('96330', '12540');
 INSERT INTO `npc_gossip` VALUES ('96371', '12540');

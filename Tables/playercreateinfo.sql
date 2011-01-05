@@ -2,15 +2,15 @@
 Navicat MySQL Data Transfer
 
 Source Server         : Pridefire
-Source Server Version : 50500
-Source Host           : localhost:3306
+Source Server Version : 50508
+Source Host           : localhost:3307
 Source Database       : world
 
 Target Server Type    : MYSQL
-Target Server Version : 50500
+Target Server Version : 50508
 File Encoding         : 65001
 
-Date: 2010-12-11 16:33:54
+Date: 2011-01-04 20:33:44
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -117,7 +117,7 @@ INSERT INTO `playercreateinfo` VALUES ('6', '5', '1', '215', '-2915.55', '-257.3
 INSERT INTO `playercreateinfo` VALUES ('8', '11', '1', '14', '-1171.45', '-5263.65', '0.847728', '0');
 INSERT INTO `playercreateinfo` VALUES ('8', '9', '1', '14', '-1171.45', '-5263.65', '0.847728', '0');
 INSERT INTO `playercreateinfo` VALUES ('5', '3', '0', '85', '1699.85', '1706.56', '135.928', '2.70526');
-INSERT INTO `playercreateinfo` VALUES ('22', '6', '654', '4298', '-1451.53', '1403.35', '35.5561', '3.65997');
+INSERT INTO `playercreateinfo` VALUES ('22', '6', '609', '4298', '2355.84', '-5662.21', '426.028', '0');
 INSERT INTO `playercreateinfo` VALUES ('22', '11', '654', '4714', '-1451.53', '1403.35', '35.5561', '0');
 INSERT INTO `playercreateinfo` VALUES ('22', '3', '654', '4714', '-1451.53', '1403.35', '35.5561', '0');
 INSERT INTO `playercreateinfo` VALUES ('22', '8', '654', '4714', '-1451.53', '1403.35', '35.5561', '0');
