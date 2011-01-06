@@ -1,6 +1,3 @@
--- spawn mask
-UPDATE `creature` SET `spawnMask`=0 WHERE `map`=0;
-UPDATE `gameobject` SET `spawnMask`=0 WHERE `map`=0;
 -- page_text
 DELETE FROM `page_text` WHERE `entry` IN (3626,3627,3628,3629);
 INSERT INTO `page_text` (`entry`,`text`,`next_page`,`WDBVerified`) VALUES 
@@ -8,8 +5,6 @@ INSERT INTO `page_text` (`entry`,`text`,`next_page`,`WDBVerified`) VALUES
 (3627,'<Missing Text>',0,13329),
 (3628,'<Missing Text>',0,13329),
 (3629,'<Missing Text>',0,13329);
--- spawnMask
-UPDATE `creature` SET `spawnMask`=0 WHERE `GUID`=(203530 AND 203531);
 -- disables
 DELETE FROM `disables` WHERE `entry` IN (7962,10787);
 -- disenchant_loot_template
